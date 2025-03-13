@@ -1,14 +1,10 @@
 
 import { Button, Col, Container, Modal, Row } from "react-bootstrap";
 
-import { ApiCardData, CardData } from "../types/CardData";
+
 import { Component } from "react";
 
-interface HomePageRowProps {
-  title: string;
-  data: CardData[];
-  handleShow: (modalData: CardData) => void;
-}
+
 
 const HomePage = () => (
   <div>
