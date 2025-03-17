@@ -1,11 +1,11 @@
-.home_container {
+.menu_container {
   background-color: #f8f9fa;
   min-height: 100vh;
 }
 
 
 .header {
-  background-color: #233d3e; 
+  background-color: #233d3e; // Color verde oscuro
   height: 10vh;
   display: flex;
   align-items: center;
@@ -14,7 +14,7 @@
 .header_container {
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   width: 100%;
   gap: 10px;
 }
@@ -23,8 +23,9 @@
 .cart_logo {
   width: 60px;
   height: auto;
-  filter: invert(1); 
+  filter: invert(1); // Convierte logos negros en blancos
 }
+
 
 .header_title {
   color: white;
@@ -32,7 +33,6 @@
   font-size: 2.5rem;
   text-align: center;
 }
-
 
 .carousel_image {
   width: 100%;
@@ -42,7 +42,7 @@
 
 
 .menu_card {
-  background-color: rgba(35, 61, 62, 0.8); 
+  background-color: rgba(35, 61, 62, 0.8); // 80% de opacidad en verde oscuro
   color: white;
   text-align: center;
   border-radius: 10px;
@@ -56,7 +56,14 @@
   }
 }
 
-/* ✅ Menu Items */
+
+.menu_title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+
 .menu_row {
   display: flex;
   justify-content: space-evenly;
@@ -80,7 +87,6 @@
   transform: scale(1.05);
   background-color: rgba(255, 255, 255, 0.1);
 }
-
 
 .menu_icon {
   width: 60px;
